@@ -1,0 +1,17 @@
+h1 {
+    background-color: red;
+    text-align: center;
+    text-emphasis: strong;
+    color: white;
+}
+h2 {
+    background-color: green;
+    text-align: left;
+    color: white;
+    border: 1px solid black;
+}
+p {
+    font-size: 20px;
+    font-family: sans-serif;
+    height: 100px;
+}

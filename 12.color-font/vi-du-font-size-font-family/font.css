@@ -1,0 +1,20 @@
+header p {
+    font-size:20px;
+    color:violet;
+    font-family: sans-serif;
+    background-color: white;
+}
+
+p {
+    font-size:15pt;
+    color:white;
+    background-color: black;
+    font-family: Arial;
+}
+
+div p{
+    font-size:12px;
+    color:black;
+    background-color: tomato;
+    font-family: Verdana, Arial, sans-serif;
+}

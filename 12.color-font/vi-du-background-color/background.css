@@ -1,0 +1,26 @@
+body{
+    color: white;
+}
+header {
+    background-color: red;
+}
+
+div {
+    background-color: green;
+}
+
+p {
+  background-color:tomato; 
+}
+
+div p{
+ background-color: gray;   
+}
+
+p.test{
+    background-color: lightblue;
+}
+
+div p.test{
+    background-color: red;
+}

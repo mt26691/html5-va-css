@@ -1,0 +1,21 @@
+
+.test {
+    color:green;
+}
+/* #EE82EE là mã màu của màu violet*/
+.test.color
+{
+    color: #EE82EE;
+}
+
+#testColor {
+    color: blue;
+}
+div p
+{
+    color:red;
+}
+p
+{
+    color: orange;
+}

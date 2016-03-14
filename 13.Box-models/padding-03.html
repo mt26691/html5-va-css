@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Padding 03</title>
+    <meta charset="utf-8">
+    <style>
+        p {
+            width: 200px;
+            border: 1px solid black;
+            padding: 10px;
+        }
+        p.topPadding {
+            /*Padding top 20px, các góc còn lại 0px*/
+            padding: 20px 0px 0px 0px;
+        }
+        p.rightPadding {
+            /*Padding right 10px, các góc còn lại 0px*/
+            padding: 0px 10px 0px 0px;
+        }
+        p.bottomPadding {
+            /*Padding bottom 30px, các góc còn lại 5px*/
+            padding: 5px 5px 30px 5px;
+        }
+        p.leftPadding {
+            /*Padding left 20px, các góc còn lại 0px*/
+            padding-top: 0px;
+            padding-right: 0px;
+            padding-bottom: 0px;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <p>
+        Thẻ p thông thường
+    </p>
+    <p class="topPadding">Thẻ p có class = topPadding</p>
+    <p class="rightPadding">Thẻ p có class = rightPadding</p>
+    <p class="bottomPadding">Thẻ p có class = bottomPadding</p>
+    <p class="leftPadding">Thẻ p có class = leftPadding</p>
+
+</body>
+
+</html>
+

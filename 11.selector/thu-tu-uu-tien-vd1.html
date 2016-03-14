@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Selector</title>
+    <meta charset="utf-8">
+    <style>
+        p {
+            background-color: red;
+            color: white;
+        }
+        .intro {
+            background-color: yellow;
+        }
+        p.intro {
+            background-color: black;
+        }
+        #Test {
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Đây là phần tử p không thuộc class nào</p>
+    <h3 class="intro">Đây là heading thuộc class intro</h3>
+    <p class="intro">Đây là phần tử p thuộc class intro</p>
+    <p id="Test" class="intro">Đây là phần tử p có Id = Test và class = intro</p>
+
+</body>
+
+</html>
+
